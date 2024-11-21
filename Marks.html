@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Enter your marks</legend>
+        <form oninput="x.value=(parseInt(marks1.value)+parseInt(marks2.value)+parseInt(marks3.value)+parseInt(marks4.value))/4"> 
+            <label> enter your name</label><br>
+            <input type="text"id="name" name="name"><br><br>
+            <select name="subject1" id="subject1">
+                <option value="science">science</option>
+                <option value="maths">maths</option>
+                <option value="english">english</option>
+                <option value="hindi">hindi</option>
+            </select>
+            <input type="number" id="marks1" name="marks1"> <br><br>
+            <select name="subject2" id="subject2">
+                <option value="science">science</option>
+                <option value="maths">maths</option>
+                <option value="english">english</option>
+                <option value="hindi">hindi</option>
+            </select>
+            <input type="number"id="marks2"name="marks2"> <br><br>
+            <select name="subject3" id="subject3">
+                <option value="science">science</option>
+                <option value="maths">maths</option>
+                <option value="english">english</option>
+                <option value="hindi">hindi</option>
+            </select>
+            <input type="number" id="marks3" name="marks3"><br><br>
+            <select name="subject4" id="subject4">
+                <option value="science">science</option>
+                <option value="maths">maths</option>
+                <option value="english">english</option>
+                <option value="hindi">hindi</option>
+            </select>
+            <input type="number" id="marks4" name="marks4"><br><br>
+            Average<output for="marks1 marks2 marks3 marks4" name="x"></output>
+        </form>
+    </fieldset>
+</body>
+</html>
